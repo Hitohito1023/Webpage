@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header ==================================== */
+
+header {
+  width: 100%;
+  background-color: #EC715F;
+  height: 70px;
+}
+
+.container {
+  width: 1024px;
+  height: 70;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-list-item {
+  float: left;
+  font-size: 16px;
+  color: #FAFAFA;
+  padding: 0 30px;
+  list-style: none;
+  line-height: 70px;
+  width: 120px;
+}
+
+/* header ==================================== */
+
+/* mv ==================================== */
+
+.mv {
+  background-image: url("img/mv.png");
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* mv ==================================== */
+

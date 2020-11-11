@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* header ==================================== */
+
+header {
+  width: 100%;
+  background-color: #EC715F;
+  height: 70px;
+}
+
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-list-item {
+  float: left;
+  font-size: 16px;
+  color: #FAFAFA;
+  padding: 0 30px;
+  list-style: none;
+  line-height: 70px;
+  width: 120px;
+}
+
+/* header ==================================== */
+
+/* mv ==================================== */
+
+.mv {
+  background-image: url("img/mv.png");
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.mv-title{
+  font-size: 64px;
+  color: #FAFAFA;
+  padding-top: 200px;
+}
+
+.mv-text{
+  font-size: 20px;
+  color: #FAFAFA;
+  padding-top: 10px;
+}
+
+/* mv ==================================== */
+
+/* portfolio ==================================== */
+
+.portfolio {
+  background-color: #ECEFF1;
+}
+
+.pf-title {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+}
+
+.sidebar {
+  height: 3px;
+  width: 70px;
+  background-color: #EC715F;
+  margin: 8px auto 0 auto;
+}
+
+.pf-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.pf-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0 90px 0;
+  width: 920px;
+  margin: 0 auto;
+}
+
+
+.pf-image1 {
+  background-image: url("img/my-icon.jpg");
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.pf-image2 {
+  background-image: url("img/websuku.png");
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.pf-image3 {
+  background-image: url("img/write.jpg");
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.pf-image4 {
+  background-image: url("img/webcamp.png");
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.pf-image5 {
+  background-image: url("img/talk.jpg");  
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.pf-image6 {
+  background-image: url("img/webcamp-mother.png");
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
+/* portfolio ==================================== */
+
+/* feature ==================================== */
+
+.f-title {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+}
+
+.f-text {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.features {
+  width: 980px;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 90px auto;
+}
+
+.strength {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.strength:last-child {
+  margin-right: 0;
+}
+
+.strength-title {
+  font-size: 20px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+  text-align: left;
+}
