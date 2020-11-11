@@ -205,3 +205,85 @@ header {
   margin-top: 10px;
   text-align: left;
 }
+
+/* profile ==================================== */
+
+.profile {
+  background-color: #ECEFF1;
+}
+
+.p-title {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000
+}
+
+.p-text {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.profile-group {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.left-content {
+  width: 512px;
+}
+
+.face {
+  background-image: url("img/my-icon.jpg");
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.right-content {
+  width: 512px;
+}
+
+.myname {
+  font-size: 20px;
+}
+
+.myname-text {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.myskill {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.myskill-text {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+/* profile ==================================== */
+
+
+/* footer ==================================== */
+
+footer {
+  background-color: #EC715F;
+  height: 60px;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+}
+/* footer ==================================== */
