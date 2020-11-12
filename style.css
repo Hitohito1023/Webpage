@@ -66,7 +66,7 @@ header {
 
 /* portfolio ==================================== */
 
-.portfolio {
+#portfolio {
   background-color: #ECEFF1;
 }
 
@@ -208,7 +208,7 @@ header {
 
 /* profile ==================================== */
 
-.profile {
+#profile {
   background-color: #ECEFF1;
 }
 
@@ -233,7 +233,7 @@ header {
 }
 
 .left-content {
-  width: 512px;
+  width: 50%;
 }
 
 .face {
@@ -246,7 +246,7 @@ header {
 }
 
 .right-content {
-  width: 512px;
+  width: 50%;
 }
 
 .myname {
@@ -271,6 +271,88 @@ header {
 }
 /* profile ==================================== */
 
+/* contact ==================================== */
+
+#contact {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.c-title {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.c-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.contact-group {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.left-contact-content {
+  width: 400px;
+}
+
+.left-contact-contents {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.mail-title {
+  margin-bottom: 5px;
+}
+
+.mail-text {
+}
+
+.tel-title {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.tel-text {
+}
+
+.right-contact-content {
+  width: 400px;
+}
+
+.right-contact-contents {
+  margin: 0 auto;
+  width: 180px;
+}
+
+.sns-title {
+  margin-bottom: 5px;
+}
+
+.fa-facebook-f {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fa-twitter {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fa-instagram {
+  font-size: 50px;
+}
+
+/* contact ==================================== */
+
+
+
 
 /* footer ==================================== */
 
@@ -287,3 +369,140 @@ footer {
   line-height: 60px;
 }
 /* footer ==================================== */
+
+@media screen and (max-width:768px) {
+
+
+  header {
+    width: 100%;
+  }
+
+  .mv {
+    width: 100%;
+  }
+
+  #portfolio {
+    width: 100%;
+  }
+
+  #feature {
+    width: 100%;
+  }
+
+  #profile {
+    width: 100%;
+  }
+
+  #contact {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .pf-images {
+    display: block;
+  }
+
+  .features {
+    display: block;
+  }
+
+  .profile-group {
+    display: block;
+  }
+
+  .contact-group {
+    display: block;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .mv {
+    background-image: url("img/code.png");
+    height: 650px;
+  }
+
+  .mv-title {
+    padding-top: 200px;
+    font-size: 40px;
+    color: #FAFAFA;
+  }
+
+  .mv-text {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #FAFAFA;
+  }
+
+
+  .pf-title {
+    padding-top: 90px;
+    font-size: 32px;
+    color: #000000;
+  }
+
+  .sidebar {
+    height: 3px;
+    width: 70px;
+    background-color: #EC715F;
+    padding-top: 8px;
+  }
+
+  .pf-text {
+    font-size: 16px;
+    color: #000000;
+    padding-top: 30px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .pf-images {
+    padding: 30px 0 90px 0;
+    margin: 0 auto
+  }
+
+  .pf-image1 {
+    display: none;
+  }
+
+  .pf-image2 {
+    background-image: url("img/websuku.png");
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+  }
+
+  .pf-image3 {
+    display: none;
+  }
+
+  .pf-image4 {
+    background-image: url("img/webcamp.png");
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .pf-image5 {
+    display: none;
+  }
+
+  .pf-image6 {
+    background-image: url("img/webcamp-mother.png");
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
